@@ -4,13 +4,13 @@
   "singleQuote": true,
   "apexInsertFinalNewline": true,
   "apexFormatAnnotations": true,
-  "apexAnnotationsArgsSpacing": true,
   "apexFormatStandardTypes": true,
-  "apexFormatInlineComments": true,
+  "apexFormatInlineComments": "spaced",
   "apexEmptyBlockBracketLine": true,
   "apexExpandOneLineProperties": false,
   "apexExplicitAccessModifier": true,
   "apexSortModifiers": true,
+  "apexForceCurly": true,
   "overrides": [
     {
       "files": "*.xml",
@@ -23,12 +23,6 @@
       "files": ["*.yml", "*.yaml", "*.json", ".prettierrc"],
       "options": {
         "tabWidth": 2
-      }
-    },
-    {
-      "files": "*.trigger",
-      "options": {
-        "apexExplicitAccessModifier": false
       }
     }
   ]

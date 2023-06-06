@@ -1,4 +1,4 @@
-public class GraphQLConstants {
+public class GraphQLConstants { //Test Gearset
     public static final String EMPTY = '';
     public static final String DOT = '.';
     public static final String COMMA = ',';
